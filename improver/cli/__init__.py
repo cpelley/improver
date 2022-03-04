@@ -318,7 +318,7 @@ def with_output(
     wrapped,
     *args,
     output=None,
-    tee=False,
+    tee=True,
     compression_level=1,
     least_significant_digit: int = None,
     **kwargs,
